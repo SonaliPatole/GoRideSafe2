@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SMSActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+   <Button
+       android:id="@+id/btnsms"
+       android:layout_width="190dp"
+       android:layout_height="0dp"
+       android:layout_marginStart="32dp"
+       android:layout_marginLeft="32dp"
+       android:layout_marginBottom="303dp"
+       android:onClick="onSend"
+       android:text="Message Me"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintStart_toStartOf="@+id/mono"
+       app:layout_constraintTop_toBottomOf="@+id/mono" />
+
+   <EditText
+       android:id="@+id/mono"
+       android:layout_width="0dp"
+       android:layout_height="0dp"
+       android:layout_marginStart="68dp"
+       android:layout_marginLeft="68dp"
+       android:layout_marginTop="121dp"
+       android:layout_marginEnd="68dp"
+       android:layout_marginRight="68dp"
+       android:layout_marginBottom="26dp"
+       android:hint="Enter no"
+       android:textSize="20sp"
+       app:layout_constraintBottom_toTopOf="@+id/btnsms"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

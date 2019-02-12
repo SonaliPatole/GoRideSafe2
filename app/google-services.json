@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "462314251970",
+    "firebase_url": "https://accidentdetection-333a3.firebaseio.com",
+    "project_id": "accidentdetection-333a3",
+    "storage_bucket": "accidentdetection-333a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462314251970:android:6bc9850d81d7321e",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.goridesafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462314251970-tl6a01jkmko7kco9ap9tnp9tadn1r783.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWiA2LDNwoUMN2t6cLvGKHGFnyaSZyk1E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
